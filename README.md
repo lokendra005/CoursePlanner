@@ -2,9 +2,6 @@
 
 A comprehensive web application that helps students plan their academic journey using advanced graph algorithms. This project demonstrates practical applications of graph theory in education technology.
 
-![Course Planner Demo](https://img.shields.io/badge/Demo-Live-brightgreen)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## 🌟 Features
 
@@ -56,33 +53,6 @@ A comprehensive web application that helps students plan their academic journey 
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
 
-## 📁 Project Structure
-
-```
-course-prerequisite-planner/
-├── 📁 frontend/                 # React TypeScript frontend
-│   ├── 📁 public/              # Static assets
-│   │   ├── 📁 components/      # React components
-│   │   │   ├── CourseForm.tsx      # Course add/edit form
-│   │   │   ├── CourseList.tsx      # Course display and management
-│   │   │   ├── GraphVisualization.tsx  # Interactive graph
-│   │   │   └── RecommendedPath.tsx     # Course ordering display
-│   │   ├── 📁 services/        # API communication
-│   │   ├── 📁 utils/           # Graph algorithms (frontend)
-│   │   ├── 📁 types/           # TypeScript type definitions
-│   │   ├── 📁 styles/          # CSS styling
-│   │   └── App.tsx             # Main application component
-│   └── package.json
-├── 📁 backend/                  # Node.js Express backend
-│   ├── 📁 src/
-│   │   ├── 📁 routes/          # API route handlers
-│   │   ├── 📁 utils/           # Graph algorithms (backend)
-│   │   ├── 📁 data/            # JSON data storage
-│   │   └── server.js           # Express server
-│   └── package.json
-├── package.json                 # Root package configuration
-└── README.md                    # This file
-```
 
 ## 🔧 API Documentation
 
@@ -499,36 +469,7 @@ cd backend
 npm install --production  # Install only production dependencies
 ```
 
-### **Performance Monitoring**
-- **Frontend**: Lighthouse, Web Vitals
-- **Backend**: Response time monitoring, memory usage
-- **Database**: Query optimization for larger datasets
 
-## 📈 Potential Enhancements
-
-### Technical Improvements
-- [ ] Database integration (PostgreSQL/MongoDB)
-- [ ] User authentication and course catalogs
-- [ ] Advanced algorithms (A*, Dijkstra for weighted prerequisites)
-- [ ] Real-time collaboration features
-- [ ] Course availability and scheduling constraints
-- [ ] Progressive Web App (PWA) capabilities
-- [ ] Offline functionality with service workers
-- [ ] API rate limiting and caching
-- [ ] Automated testing suite
-
-### Educational Features
-- [ ] GPA tracking and course difficulty weights
-- [ ] Prerequisite strength analysis
-- [ ] Alternative path suggestions
-- [ ] Integration with university course catalogs
-- [ ] Mobile app development
-- [ ] Multi-university support
-- [ ] Course recommendation engine
-- [ ] Academic advisor dashboard
-- [ ] Student progress tracking
-
-## 🎓 Educational Value
 
 This project demonstrates:
 - **Graph Theory**: Practical application of graph algorithms
@@ -537,35 +478,7 @@ This project demonstrates:
 - **Software Architecture**: Full-stack application design
 - **User Experience**: Translating complex algorithms into intuitive interfaces
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Graph Theory**: Algorithms inspired by classic computer science texts
-- **vis.js**: Excellent graph visualization library
-- **React Community**: Comprehensive ecosystem and documentation
-- **Educational Technology**: Inspired by the need for better academic planning tools
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/course-prerequisite-planner/issues) page
-2. Create a new issue with detailed description
-3. Contact: your.email@example.com
-
----
-
-**Built with ❤️ for students and educators everywhere**
 
 *This project showcases the power of graph algorithms in solving real-world educational challenges.* 
